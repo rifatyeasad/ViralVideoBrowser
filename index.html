@@ -69,7 +69,7 @@
         firebase.initializeApp(firebaseConfig);
         const db = firebase.database();
 
-        const VIDEOS_PER_PAGE = 5;
+        const VIDEOS_PER_PAGE = 10;
         let activeCategory = "", currentPage = 1, allVideosData = {}, updateInterval;
         const GLOBAL_UNLOCK_KEY = 'global_unlock_until', DAILY_UNLOCK_COUNT_KEY = 'daily_unlock_count';
         let DAILY_UNLOCK_LIMIT = 15;
